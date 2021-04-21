@@ -25,19 +25,21 @@ The result of 01-basic template will create the next directory structure:
     │       ├── appsettings.Development.json
     │       ├── appsettings.json
     │       ├── Controllers
-    │       │   └── WeatherForecastController.cs
-    │       ├── MyDefaultProjectName.csproj
+    │       │   └── UserController.cs
     │       ├── Program.cs
+    │       ├── MyDefaultProjectName.csproj
     │       ├── Properties
     │       │   └── launchSettings.json
     │       ├── Startup.cs
-    │       └── WeatherForecast.cs
+    │       └── User.cs
     └── tests
         └── MyDefaultProjectName.tests
-            ├── MyDefaultProjectName.tests.csproj
-            └── UnitTest1.cs
+            ├── Controllers
+            │   └── UserControllerTests.cs
+            └── MyDefaultProjectName.tests.csproj
     
-    6 directories, 11 files
+    7 directories, 11 files
+
 
 
 
