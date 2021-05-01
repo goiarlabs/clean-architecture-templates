@@ -2,7 +2,7 @@
 
 ## Overview
 This is set of templates for creating ASP.NET Core apis following a Clean Architecture structure.
-Create a new project based on a chosen template between (basic, medium, advance) by installing the associated command.
+Create a new project based on a chosen template between (basic, medium, advanced) by installing the associated command.
 
 ## Technologies 
 - ASP.NET Core 5
