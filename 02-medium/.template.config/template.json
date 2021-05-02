@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Lazaro Gabriel Onofre",
+  "classifications": [ "Web", "Api" ],
+  "name": "Medium Clean Architecture",
+  "identity": "Medium.Clean.Architecture",        
+  "shortName": "mca",                 
+  "tags": {
+    "type": "item",
+    "language": "C#"               
+  },
+  "sourceName": "project.name",      
+  "symbols": {
+    "solutionName": {
+      "type": "parameter",
+      "datatype": "string",
+      "isRequired": true,
+      "description": "The name of the solution file.",
+      "fileRename": "solution.name"
+    },
+    "projectName": {
+      "type": "parameter",
+      "datatype": "string",
+      "isRequired": true,
+      "description": "The name of the project.",
+      "replaces": "project.name",
+      "fileRename": "project.name"
+    }
+  }
+}
